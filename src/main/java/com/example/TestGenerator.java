@@ -33,7 +33,7 @@ public class TestGenerator {
         if (zeros || arraySize == 0) {
             testCase.input = null;
             testCase.expectedErrors.add("Массив null или пустой.");
-            testCase.expectedTransformedArray = new int[0];
+            testCase.expectedTransformedArray = null;
             return testCase;
         }
 
